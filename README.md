@@ -13,12 +13,19 @@
 
 ## Installation
 
-NPM: `npm i`
-Yarn `yarn`
+NPM: 
+```ssh
+npm i
+```
+
+Yarn: 
+```ssh
+yarn
+```
 
 ## To Run
 
-To run a basic example:
+#### To run a basic example:
 
 ```ssh
 npm run start
@@ -26,7 +33,7 @@ npm run start
 
 You can then go to `http://localhost:3000/` to see the component in a basic state.
 
-To run storybook and see the components in various states:
+#### To run storybook and see the components in various states:
 
 ```ssh
 npm run storybook
@@ -34,11 +41,15 @@ npm run storybook
 
 You can then go to `http://localhost:6006/` to see the storybook.
 
-To run various tests:
+#### To run various tests:
 ```ssh
 npm run test
 ```
 
 ## Components
-QuestionPresenter - The component that presents the question and lists all the answers
-ToggleSwitch - A switch component that takes in minimum of 2 options.
+
+#### QuestionPresenter
+The component that presents the question and lists all the answers
+
+#### ToggleSwitch
+A switch component that takes in minimum of 2 options.
