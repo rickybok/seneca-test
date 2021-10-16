@@ -14,12 +14,6 @@
 * The minimum width the component supports is 320px.
 
 ## Installation
-
-NPM:
-```ssh
-npm i
-```
-
 Yarn:
 ```ssh
 yarn
