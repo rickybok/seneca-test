@@ -3,6 +3,8 @@
 ## Summary
 * This repository contains a React component `QuestionPresenter` which presents a question and multiple choice answers in the form of Toggle Buttons.
 
+![Image of QuestionPresenter in action](./assets/header.png)
+
 ## Assumptions/Limitations
 * The first option is selected by default, which means when the question is presented, some questions could be answered correctly right off the bat.
 * The component locks when ALL QUESTIONS have been answered correctly.
@@ -13,12 +15,12 @@
 
 ## Installation
 
-NPM: 
+NPM:
 ```ssh
 npm i
 ```
 
-Yarn: 
+Yarn:
 ```ssh
 yarn
 ```
