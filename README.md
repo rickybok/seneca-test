@@ -12,6 +12,7 @@
 * The component font size is fixed to 24px.
 * The component wraps when it gets under 600px.
 * The minimum width the component supports is 320px.
+* The maximum lines shown is 2 lines.
 
 ## Installation
 Yarn:

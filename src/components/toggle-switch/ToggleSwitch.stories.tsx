@@ -82,3 +82,18 @@ ThreeOptions.args = {
     },
   ],
 };
+
+export const LongOptions = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+LongOptions.args = {
+  options: [
+    {
+      value: 'First Option with some really long descriptions',
+      id: 'option1',
+    },
+    {
+      value: 'SecondOptionbutwithalongword',
+      id: 'option2',
+    },
+  ],
+};

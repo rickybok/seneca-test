@@ -69,6 +69,8 @@ const SwitchLabel = styled.div<{ theme: SwitchTheme; selected: boolean }>`
   font-weight: bold;
   font-size: 24px;
   line-height: 160%;
+  text-align: center;
+  word-break: break-word;
 
   @media only screen and (max-width: ${COLUMN_WIDTH_THRESHOLD_PX}px) {
     height: ${DEFAULT_HEIGHT_PX}px;
